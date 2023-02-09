@@ -304,6 +304,9 @@ function get_os_version() {
                 __os_debian_ver="10"
             fi
             ;;
+        Kali)
+            __os_debian_ver="12"
+            ;;
         *)
             error="Unsupported OS"
             ;;
